@@ -1,0 +1,85 @@
+[
+  {
+    "description": "    application Sanity",
+    "elements": [
+      {
+        "description": "",
+        "id": "tiqtoq-validation;tiqtoq-homepage-validation",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "TiqToq HomePage validation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Tiqtoq Page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I am verifying the tabs on that page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I am verifying the links of that page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1853000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tiqtoq-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "TiqToq validation",
+    "tags": [],
+    "uri": "cypress/integration/examples/BDD/tiqtoq.feature"
+  }
+]
